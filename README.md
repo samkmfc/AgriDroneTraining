@@ -119,6 +119,6 @@ npm run dev
 - **安全**：密码 BCrypt 加密，JWT 无状态鉴权，基于角色（STUDENT/ADMIN）的权限控制，
   `/admin/**` 接口仅管理员可访问。
 
-## 六、生产部署（开题报告 3.2）
+## 六、生产部署
 - 后端 `mvn package` 打成 `agri-drone-training.war`，部署到 Tomcat 9.0。
 - 前端 `npm run build` 生成 `dist/`，由 Nginx 托管并反向代理 `/api` 到后端。
